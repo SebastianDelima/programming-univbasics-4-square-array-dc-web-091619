@@ -1,13 +1,12 @@
 require'pry'
 
 def square_array(array)
-new_array = 0 
+new_array = [] 
 count = 0 
-while count < array.length 
-array[count] * array[count]
+while count < array.length do
+ addition = array[count] * array[count]
+ new_array.push(addition)
 count += 1
-end
- 
   end
   return new_array
 end
